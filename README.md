@@ -1,15 +1,71 @@
-# lifeRestart
-Game Life Restart
+# Life Restart
 
-from [VickScarlet/lifeRestart](https://github.com/VickScarlet/lifeRestart)
+<a href="https://discord.gg/U3qrf49NMQ"><img src="https://img.shields.io/discord/883382868427014255?color=%23FEE75C&label=Discord&logo=discord&logoColor=white&style=for-the-badge" /></a>
 
-~~简体中文威力加强无敌版~~
+English | [简体中文](./README-zh_CN.md)
 
-- 限制20000初始属性，不强制全部使用
-- 无限刷新天赋 
-- 可自选任意3天赋
-- 可以两种速度快进人生
+## Introduction
 
-[Demo](https://liferestart.mocabot.cn/)
+- Game Life Restart
 
-> *如果要部署建议把index.html里调用online.js和百度统计的去掉*
+## Usage
+
+<details>
+<summary><strong>Web Version</strong></summary>
+<br />
+
+1. Clone project code.
+
+```bash
+git clone git@github.com:VickScarlet/lifeRestart.git my-project
+cd my-project
+```
+
+2. Installation dependence.
+
+```bash
+yarn install
+```
+
+Or
+
+```bash
+npm install
+```
+
+3. Start local server.
+
+```bash
+yarn dev
+```
+
+Or
+
+```bash
+npm run dev
+```
+
+4. After the startup is complete, will automatically open a browser and visit [http://localhost:8081/view/index.html](http://localhost:8081/view/index.html).
+</details>
+
+<details>
+<summary><strong>Command Line Version</strong></summary>
+<br />
+
+```bash
+node repl
+```
+
+</details>
+
+## Other Version
+
+<details>
+<summary><strong>Versions</strong></summary>
+<br />
+
+- Cocos Ver: [gameall3d/LifeRestart_Cocos](https://github.com/gameall3d/LifeRestart_Cocos)
+
+</details>
+
+> More instructions at [documentation](https://liferestart.syaro.io/).
